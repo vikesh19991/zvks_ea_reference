@@ -19,7 +19,7 @@ To be used to make fields non-parameter fields as mandatory.
  
 
 # @Consumption.hidden:true
-Parameters marked with @Consumption.hidden: true should mandatorily have @Consumption.derivation annotations to derive values at runtime.
+Parameters marked with @Consumption.hidden: true should mandatorily have @Consumption.derivation or @Environment.systemField annotations to derive values at runtime.
 
 Also, binding value used for derivation should also have @Consumption.derivation annotation to ensure the derivation logic, as the values derivation will takes place in a chain for all the CDS View parameter depending on their dependency on each other.
 
