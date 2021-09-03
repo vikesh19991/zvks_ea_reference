@@ -13,6 +13,7 @@ This annotation:
 
 # @Consumption.filter
 To be used to make fields non-parameter fields as mandatory.
+@Consumption.filter:{ selectionType: #RANGE, multipleSelections: true }
 ## Note
 #RANGE is not possible for parameters of CDS view.
  
