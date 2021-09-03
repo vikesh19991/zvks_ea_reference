@@ -12,7 +12,7 @@ This annotation:
 2.	Can also be provided filter values depending upon additional Binding.
 
 # @Consumption.filter
-To be used to make fields non-parameter fields as mandatory.
+To be used to make non-parameter fields a filter on the Design Studio pop up.
 @Consumption.filter:{ selectionType: #RANGE, multipleSelections: true }
 ## Note
 #RANGE is not possible for parameters of CDS view.
